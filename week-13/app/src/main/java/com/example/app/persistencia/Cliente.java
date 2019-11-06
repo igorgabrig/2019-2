@@ -19,7 +19,7 @@ import java.io.Serializable;
 public class Cliente implements Serializable {
 
     @Id @GeneratedValue
-    private Long id;
+    private int id;
     private String nome;
     private int idade;
     private double limiteCredito;
